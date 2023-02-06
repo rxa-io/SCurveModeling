@@ -11,7 +11,7 @@ create_new_sequence(min_x, max_x, increment = 10)
 
 \item{max_x}{The max value of 'x'}
 
-\item{increament}{The increment used to create the sequenced list.}
+\item{increment}{The increment used to create the sequenced list.}
 }
 \value{
 A sequenced list starting at min_x and increasing by increment to

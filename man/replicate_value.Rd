@@ -9,7 +9,7 @@ replicate_value(value, n)
 \arguments{
 \item{value}{The field that will be replicated}
 
-\item{x_new}{The amount of replications that will be performed}
+\item{n}{The amount of replications that will be performed}
 }
 \value{
 List of length 'n' consisting entirely of 'value'
