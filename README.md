@@ -1,3 +1,3 @@
 ## S Curve Modeling
 
-Currently in progress of building out package.
+This package is designed to assist in preparing the data, perform modeling, and finally smooth out the results into an s curve look-up table.
