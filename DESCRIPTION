@@ -1,0 +1,16 @@
+Package: scurvemodeling
+Title: S Curve Modeling Package
+Version: 0.0.0.1
+Authors@R: 
+    person("Emily", "Brehmer", , "emily.brehmer@rxa.io", role = c("aut", "cre"))
+Description: Provided a dataframe object containing Spend, Revenue, and Adstock
+  data.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+Imports:
+  aomisc (>= 0.647)
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
