@@ -14,8 +14,8 @@
 is_data_fit_to_model <- function(df, has_adstock_data){
 
   if (nrow(df) > 10 ){
-    max_decompMedia <- df$decompMedia[which.max(df$SaturatedSpend)]
-    min_decompMedia <- df$decompMedia[which.min(df$SaturatedSpend)]
+    max_decompMedia <- df$DecompMedia[which.max(df$SaturatedSpend)]
+    min_decompMedia <- df$DecompMedia[which.min(df$SaturatedSpend)]
 
     if(has_adstock_data){
       max_adstockMedia <- df$AdstockMedia[which.max(df$SaturatedSpend)]

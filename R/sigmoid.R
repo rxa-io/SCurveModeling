@@ -1,4 +1,4 @@
-#' Sigmoid
+#' Sigmoid for the DRM BC model
 #'
 #' The sigmoid function is used to determine a 'y' value for any given 'x'.
 #'
