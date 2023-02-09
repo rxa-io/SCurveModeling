@@ -1,10 +1,14 @@
 Package: scurvemodeling
-Title: S Curve Modeling Package
+Title: S-Curve Modeling Package
 Version: 0.0.0.1
 Authors@R: 
     person("Emily", "Brehmer", , "emily.brehmer@rxa.io", role = c("aut", "cre"))
-Description: Provided a dataframe object containing Spend, Revenue, and Adstock
-  data.
+Description: S-curve modeling can sometimes be a difficult process to under go.
+  This package assists in developing preparing the data for s-curve modeling and
+  working with the results of the model. After following a step by step process,
+  the package will create a lookup table and a coefficient table. The lookup 
+  table will contain the x and y values of the s-curve model. The coefficient 
+  table will contain a list of expected coefficients based on the provided data.
 License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
