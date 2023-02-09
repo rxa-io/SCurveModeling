@@ -9,8 +9,6 @@
 #'
 create_coeffs_variables_drm_BC5 <- function(x_new, coeff, index){
 
-  temp1 <- summary(curve)$coeff
-
   # coefficients
   b = coeff$b   # slope at the inflection point 1
   c = coeff$c   # lower asymptote 2
