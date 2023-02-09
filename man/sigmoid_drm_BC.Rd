@@ -2,7 +2,7 @@
 % Please edit documentation in R/sigmoid.R
 \name{sigmoid_drm_BC}
 \alias{sigmoid_drm_BC}
-\title{Sigmoid}
+\title{Sigmoid for the DRM BC model}
 \usage{
 sigmoid_drm_BC(b, c, d, e, f, x_new)
 }
