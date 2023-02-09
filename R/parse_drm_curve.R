@@ -8,7 +8,7 @@
 #' @return A list of all coefficients for a drm curve
 #' @export
 #'
-parse_drm_curve <- function (curve){
+parse_curve_drm_BC5 <- function (curve){
   temp1 <- summary(curve)$coeff
 
   # Decomp Media
