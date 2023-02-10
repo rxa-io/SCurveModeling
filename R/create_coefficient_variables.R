@@ -10,12 +10,11 @@
 create_coeffs_variables_drm_BC5 <- function(x_new, coeff, index){
 
   # coefficients
-  b = coeff$b   # slope at the inflection point 1
-  c = coeff$c   # lower asymptote 2
-  d = coeff$d   # higher asymptote 3
-  e = coeff$e   # xmid 4
-  f = coeff$f
-
+  b = coeff[[b]]   # slope at the inflection point 1
+  c = coeff[[c]]   # lower asymptote 2
+  d = coeff[[d]]   # higher asymptote 3
+  e = coeff[[e]]   # xmid 4
+  f = coeff[[f]]
 
   # # Get x value for asym
   coef_asym_xval_num = df_l$SaturatedSpend[which.min(abs(df_l[, index] - d))]
