@@ -9,11 +9,12 @@
 #' @export
 #'
 sigmoid_drm_BC5 <- function (coeff, x_new){
-  b = coeff[[b]]   # slope at the inflection point 1
-  c = coeff[[c]]   # lower asymptote 2
-  d = coeff[[d]]   # higher asymptote 3
-  e = coeff[[e]]   # xmid 4
-  f = coeff[[f]]
+
+  b = coeff$b   # slope at the inflection point 1
+  c = coeff$c   # lower asymptote 2
+  d = coeff$d   # higher asymptote 3
+  e = coeff$e   # xmid 4
+  f = coeff$f
 
   y = c + ((d - c + f*(x_new))/ (1 + exp(b*(log(x_new) - log(e)))))
   return(y)

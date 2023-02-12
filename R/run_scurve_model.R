@@ -10,7 +10,7 @@
 #' @export
 #'
 run_scurve_model_drm_BC5 <- function (data, index){
-  logistic_drm <- drm(data[, index]~data$SaturatedSpend,
+  logistic_drm <- drc::drm(data[, index]~data$SaturatedSpend,
                       fct=BC.5(),
                       data=data,
                       control = drmc(method = "L-BFGS-B",
